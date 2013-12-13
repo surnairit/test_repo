@@ -54,7 +54,7 @@ main()
   outfile<<"EventNumber"<<"\t"<<"InputPhotons"<<"\t"<<"ObservedPixels"<<endl;
 //  while(InciNumPhotons<1500){
 //  while(InciNumPhotons<20001){
-  while(InciNumPhotons<200){
+  while(InciNumPhotons<2000){
     for(int k=0;k<TotEvents;k++){
       EventNum++;
       while(PhotonCount<InciNumPhotons){
