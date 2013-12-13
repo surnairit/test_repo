@@ -53,7 +53,8 @@ main()
   ofstream outfile("PixelCountsv2Direct.txt");
   outfile<<"EventNumber"<<"\t"<<"InputPhotons"<<"\t"<<"ObservedPixels"<<endl;
 //  while(InciNumPhotons<1500){
-  while(InciNumPhotons<20001){
+//  while(InciNumPhotons<20001){
+  while(InciNumPhotons<200){
     for(int k=0;k<TotEvents;k++){
       EventNum++;
       while(PhotonCount<InciNumPhotons){
