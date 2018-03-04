@@ -156,7 +156,7 @@ main()
 	pixel_histogram[j]->Write(histname);
   }
 
-  cout<<"File Ready"<<endl;
+  cout<<"File Ready v2.0"<<endl;
 
 
 
